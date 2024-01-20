@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #712cf9;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fa-bootstrap{
+    color: white;
+    font-size: 38px;
+    margin-top: 10px;
+}
+ul {
+    
+    display: flex;
+}
+ul li{
+    cursor: pointer;
+    list-style: none;
+    padding:0px 10px;
+    color: #ffffffD9;
+    margin-top: 18px;
+    font-size: 15px;
+    
+}
+.fa-magnifying-glass{
+   background: transparent;
+    font-size: 20px;
+    margin-left: 20px;
+    border: 1px thick black;
+   
+}
+.middle{
+    background: transparent;
+    border: 1px solid black;
+    margin-left: 10px;
+    color: whitesmoke;
+    border-radius:8px;
+    border-color: #ffffffD9;
+    transition: ease-in-out ;
+ 
+
+}
+.middle:hover{
+    border: 2px solid rgb(175, 130, 48);
+}
+.inpt{
+    background: transparent;
+    font-size: 17px;
+    outline: none;
+    color: white;
+    border: none;
+    padding: 5px 6px;
+    
+}
+::placeholder{
+    color: white;
+   
+}
+.logo{
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.fa-brands{
+    margin-right:10px ;
+}
+
+
+
+
+
+/* scroll.html editing */

@@ -1,0 +1,16 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+  
+}
+h5{
+    margin-top: 50px;
+    color: #00000000;
+}
+p{ 
+     font-size: 15px;
+
+}
